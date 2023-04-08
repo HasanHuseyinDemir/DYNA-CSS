@@ -1,0 +1,30 @@
+{
+  "name": "dyna-css",
+  "version": "1.0.0",
+  "description": "Variable Based Dynamic Css Library",
+  "main": "dynacss.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HasanHuseyinDemir/DYNA-CSS.git"
+  },
+  "keywords": [
+    "dynamic",
+    "css",
+    "javascript",
+    "proxy",
+    "reactive",
+    "style",
+    "library",
+    "minimal",
+    "minimalistic"
+  ],
+  "author": "Hasan Hüseyin Demir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HasanHuseyinDemir/DYNA-CSS/issues"
+  },
+  "homepage": "https://github.com/HasanHuseyinDemir/DYNA-CSS#readme"
+}
