@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYNA-CSS</title>
+    <script src="https://unpkg.com/dyna-css@1.0.0/dynacss.js"></script>
+</head>
+<body>
+    
+    <div css="items"><span>First Item</span><span>Second Item</span></div>
+
+    <script>
+    let styles=document.css({
+    items:{
+      display:"flex",
+      justifyContent:"center",
+      alignItems:"center"
+    }
+    })
+    
+    //You can update after
+    let items=styles.items
+    
+    items.color="green";
+    items.backgroundColor="black"
+    
+    </script>
+    
+</body>
+</html>
