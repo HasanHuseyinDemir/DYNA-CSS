@@ -3,6 +3,27 @@
 # DYNA-CSS
 Variable Based Dynamic Css Library
 
+# Usage
+```
+<div css="items"><span>First Item</span><span>Second Item</span></div>
+
+<script>
+let styles=document.css({
+items:{
+  display:"flex",
+  justifyContent:"center",
+  alignItems:"center"
+}
+})
+
+//You can update after
+let items=styles.items
+
+items.color="green";
+items.backgroundColor="black"
+
+</script>
+```
 
 # Installations
 
