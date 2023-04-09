@@ -1,6 +1,6 @@
 {
   "name": "dyna-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Variable Based Dynamic Css Library",
   "main": "dynacss.mjs",
   "scripts": {
