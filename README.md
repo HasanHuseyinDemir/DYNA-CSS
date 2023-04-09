@@ -10,8 +10,8 @@ Variable Based Dynamic Css Library
     <span css="item">First Item</span>
     <span css="item">Second Item</span>
 </div>
-
-<script>
+```
+```js
 //First Method
 let styles=document.css({
 items:{
